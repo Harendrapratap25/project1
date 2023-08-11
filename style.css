@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url('img/bg.png');
+    opacity: 0.76;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* navbar */
+.navbar img{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    font-size: 23px;
+    font-weight: 200;
+    list-style: none;
+    font-family:"Red Rose"
+}
+.list a{
+    text-decoration: none;
+    color: #ffc233;
+    font-weight: 300;
+}
+.small-button{
+    font-size: 28px;
+    font-family: 'red rose';
+    font-weight: 700;
+    background-color: brown;
+    color: white;
+    border-radius: 1px;
+    size: 50px;
+    height: 45px;
+    width: 120px;
+    border: none;
+    margin-left: 1000px;
+    cursor: pointer;
+
+}
+/* hero section */
+.hero{
+    max-width: 1160px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 120px;
+}
+/* heading hero */
+.heading{
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: 400;
+    font-size: 104px;
+    line-height: 114px;
+    color: #ffc233;
+}
+/* big button */
+.button-larger{
+    background: #ff505f;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 34px;
+    border: none;
+    padding: 24px 46px;
+    margin: 62px;
+}
+.button-larger:hover{
+    cursor: pointer;
+}
+.bottom{
+    position: fixed;
+    /* margin-top: 50px; */
+    bottom: 0px;
+    right: 0px;
+}
